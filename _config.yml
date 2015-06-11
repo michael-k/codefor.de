@@ -10,6 +10,7 @@ exclude:
   - "mission"
   - "README.md"
   - "doc/"
+  - "script/"
   #- "projekte" # uncomment line to speed up jekyll build for development
   #- "blog" # uncomment line to speed up jekyll build for development
   #- "termine" # uncomment line to speed up jekyll build for development
