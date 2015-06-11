@@ -4,4 +4,5 @@ bundle exec jekyll build | tee output.log
 # fail if there is an error in output.log
 grep -i "error" output.log > /dev/null && exit 1 || echo "Found no error in output.log"
 
-bundle exec htmlproof ./_site --check-html --verbose
+bundle exec htmlproof ./_site --empty-alt-ignore
+#--check-html --verbose
